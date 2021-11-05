@@ -1,59 +1,92 @@
 <!DOCTYPE html>
-<html>
-<title>IkhsanGama</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link
-href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
-rel="stylesheet"
-/>
-<link href="style.css" rel="stylesheet" />
+<html lang="en">
 
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <a href="#"><li style="color:#07689f">Home</li></a>
-        <a href="#about"><li style="color:#07689f">About</li></a>
-        <a href="#contact"><li >Contact</li></a>
-      </ul>
-    </nav>
-  </header>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous"
+  />
+  <meta name="msapplication-tap-highlight" content="no">
 
+  <title>IkhsanGama</title>
+
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="minimal">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
 <header>
-  <div>
-    <h1 style="font-size:100px">Ikhsan Gama</h1>
-  </div>
-  <div class="img-container">  
-      <br>
-      <img width="40%" src="background1.jpg"/>
-  </div>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+
+          <li><a href="./index.html" title="">IkhsanGama</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/ikhsangama/" target="_blank">
+              <i class="fab fa-linkedin fa-1x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/ikhsangama/" target="_blank">
+              <i class="fab fa-github fa-1x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.medium.com/@ikhsangama/" target="_blank">
+              <i class="fab fa-medium fa-1x"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div> 
+    </div>
+  </nav>
 </header>
-<br>
-<br>
-
-
-<div >
-    <div class="about">
-        <h2 id="about">About Me</h2>
-        <p>I may not be a social butterfly, a mathematical whizzkid, a design visionary or a seasoned 
-            businessman. But I can do alright in all those areas and I can work together well with all 
-            kinds of people.</p>
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Hello,<br>
+                I'm
+                <span id="typed-strings">
+                  <span>Ikhsan</span>
+                  <span>a Software Engineer</span>
+                  <span>a Dreamer..</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="contact">
-        <p ><strong>Contact Me</strong></p>
-        <form action="action_page.html" target="_blank">
-          <p><input type="text" placeholder="Name" required name="Name"></p>
-          <textarea name="messasge" id="message-input" cols="30" rows="10" placeholder="Message"></textarea>
-          <p><button type="submit">SEND MESSAGE</button></p>
-    </div>
+  </div>
 
-    </form>
-</div>
-<br>
-<footer>
-  <h5> Ikhsan Wisnuadji G - Hacktiv8 &copy;</h5>
-</footer>
-</body>
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
